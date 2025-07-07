@@ -1,0 +1,57 @@
+Symbol inserted: a, Type: IDENTIFIER
+Symbol inserted: b, Type: IDENTIFIER
+Symbol inserted: funcname, Type: FUNCTION
+Symbol inserted: abc, Type: FUNCTION
+Printing symbol table:
+Index 264: b (IDENTIFIER) 
+Index 472: funcname (FUNCTION) 
+Index 496: a (IDENTIFIER) 
+Index 792: abc (FUNCTION) 
+Symbol found: abc, Type: FUNCTION
+Symbol found: a, Type: IDENTIFIER
+Symbol not found: j
+Symbol deleted: abc
+Printing symbol table:
+Index 264: b (IDENTIFIER) 
+Index 472: funcname (FUNCTION) 
+Index 496: a (IDENTIFIER) 
+Symbol inserted: 123, Type: NUMBER
+Symbol not found for deletion: ja
+Symbol inserted: =, Type: RELOP
+Symbol inserted: ==, Type: RELOP
+Symbol inserted: >=, Type: RELOP
+Printing symbol table:
+Index 0: == (RELOP) >= (RELOP) 
+Index 200: 123 (NUMBER) 
+Index 264: b (IDENTIFIER) 
+Index 472: funcname (FUNCTION) 
+Index 496: a (IDENTIFIER) 
+Index 848: = (RELOP) 
+Symbol already exists: =
+Symbol deleted: ==
+Printing symbol table:
+Index 0: >= (RELOP) 
+Index 200: 123 (NUMBER) 
+Index 264: b (IDENTIFIER) 
+Index 472: funcname (FUNCTION) 
+Index 496: a (IDENTIFIER) 
+Index 848: = (RELOP) 
+Symbol not found: 231
+Symbol inserted: 204, Type: NUMBER
+Printing symbol table:
+Index 0: >= (RELOP) 
+Index 200: 123 (NUMBER) 204 (NUMBER) 
+Index 264: b (IDENTIFIER) 
+Index 472: funcname (FUNCTION) 
+Index 496: a (IDENTIFIER) 
+Index 848: = (RELOP) 
+Symbol deleted: 204
+Symbol already exists: 123
+Symbol already exists: a
+Printing symbol table:
+Index 0: >= (RELOP) 
+Index 200: 123 (NUMBER) 
+Index 264: b (IDENTIFIER) 
+Index 472: funcname (FUNCTION) 
+Index 496: a (IDENTIFIER) 
+Index 848: = (RELOP) 
