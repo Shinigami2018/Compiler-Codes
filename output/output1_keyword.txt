@@ -1,0 +1,17 @@
+int 1
+int 2
+for 5
+for 7
+if 9
+break 10
+if 12
+else 17
+if 17
+int 25
+int 27
+float 28
+unsigned 29
+char 29
+if 35
+else 40
+return 42

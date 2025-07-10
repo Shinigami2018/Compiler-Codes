@@ -1,57 +1,665 @@
-Symbol inserted: a, Type: IDENTIFIER
-Symbol inserted: b, Type: IDENTIFIER
-Symbol inserted: funcname, Type: FUNCTION
-Symbol inserted: abc, Type: FUNCTION
-Printing symbol table:
-Index 264: b (IDENTIFIER) 
-Index 472: funcname (FUNCTION) 
-Index 496: a (IDENTIFIER) 
-Index 792: abc (FUNCTION) 
-Symbol found: abc, Type: FUNCTION
-Symbol found: a, Type: IDENTIFIER
-Symbol not found: j
-Symbol deleted: abc
-Printing symbol table:
-Index 264: b (IDENTIFIER) 
-Index 472: funcname (FUNCTION) 
-Index 496: a (IDENTIFIER) 
-Symbol inserted: 123, Type: NUMBER
-Symbol not found for deletion: ja
-Symbol inserted: =, Type: RELOP
-Symbol inserted: ==, Type: RELOP
-Symbol inserted: >=, Type: RELOP
-Printing symbol table:
-Index 0: == (RELOP) >= (RELOP) 
-Index 200: 123 (NUMBER) 
-Index 264: b (IDENTIFIER) 
-Index 472: funcname (FUNCTION) 
-Index 496: a (IDENTIFIER) 
-Index 848: = (RELOP) 
-Symbol already exists: =
-Symbol deleted: ==
-Printing symbol table:
-Index 0: >= (RELOP) 
-Index 200: 123 (NUMBER) 
-Index 264: b (IDENTIFIER) 
-Index 472: funcname (FUNCTION) 
-Index 496: a (IDENTIFIER) 
-Index 848: = (RELOP) 
-Symbol not found: 231
-Symbol inserted: 204, Type: NUMBER
-Printing symbol table:
-Index 0: >= (RELOP) 
-Index 200: 123 (NUMBER) 204 (NUMBER) 
-Index 264: b (IDENTIFIER) 
-Index 472: funcname (FUNCTION) 
-Index 496: a (IDENTIFIER) 
-Index 848: = (RELOP) 
-Symbol deleted: 204
-Symbol already exists: 123
-Symbol already exists: a
-Printing symbol table:
-Index 0: >= (RELOP) 
-Index 200: 123 (NUMBER) 
-Index 264: b (IDENTIFIER) 
-Index 472: funcname (FUNCTION) 
-Index 496: a (IDENTIFIER) 
-Index 848: = (RELOP) 
+Inserted at position 8,0
+0 -> 
+1 -> 
+2 -> 
+3 -> 
+4 -> 
+5 -> 
+6 -> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 2,0
+0 -> 
+1 -> 
+2 -> <prime,Function> 
+3 -> 
+4 -> 
+5 -> 
+6 -> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 2,1
+0 -> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> 
+3 -> 
+4 -> 
+5 -> 
+6 -> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 4,0
+0 -> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 2,1
+Value already exists
+Inserted at position 2,2
+0 -> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 6,0
+0 -> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> <i,Identifier> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 6,1
+0 -> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 2,3
+0 -> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 6,2
+0 -> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 0,0
+0 -> <auto,Identifier> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 2,2
+Value already exists
+Inserted at position 6,3
+0 -> <auto,Identifier> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 0,1
+0 -> <auto,Identifier> <0,Number> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 6,4
+0 -> <auto,Identifier> <0,Number> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> 
+3 -> 
+4 -> <n,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 6,3
+Value already exists
+Found at 2,2
+Value already exists
+Inserted at position 4,1
+0 -> <auto,Identifier> <0,Number> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> 
+3 -> 
+4 -> <n,Identifier> <2,Number> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 6,3
+Value already exists
+Inserted at position 0,2
+0 -> <auto,Identifier> <0,Number> <<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> 
+3 -> 
+4 -> <n,Identifier> <2,Number> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 2,2
+Value already exists
+Found at 4,0
+Value already exists
+Found at 6,4
+Value already exists
+Found at 6,2
+Value already exists
+Found at 2,2
+Value already exists
+Found at 4,1
+Value already exists
+Found at 6,2
+Value already exists
+Found at 0,2
+Value already exists
+Found at 2,2
+Value already exists
+Found at 6,0
+Value already exists
+Inserted at position 6,5
+0 -> <auto,Identifier> <0,Number> <<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> 
+3 -> 
+4 -> <n,Identifier> <2,Number> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 2,4
+0 -> <auto,Identifier> <0,Number> <<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> 
+3 -> 
+4 -> <n,Identifier> <2,Number> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 2,3
+Value already exists
+Found at 6,2
+Value already exists
+Found at 2,3
+Value already exists
+Inserted at position 6,6
+0 -> <auto,Identifier> <0,Number> <<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> 
+3 -> 
+4 -> <n,Identifier> <2,Number> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 2,5
+0 -> <auto,Identifier> <0,Number> <<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> 
+3 -> 
+4 -> <n,Identifier> <2,Number> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 6,0
+Value already exists
+Found at 6,2
+Value already exists
+Inserted at position 4,2
+0 -> <auto,Identifier> <0,Number> <<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 0,1
+Value already exists
+Inserted at position 2,6
+0 -> <auto,Identifier> <0,Number> <<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 6,6
+Value already exists
+Found at 6,2
+Value already exists
+Found at 4,2
+Value already exists
+Found at 6,0
+Value already exists
+Inserted at position 2,7
+0 -> <auto,Identifier> <0,Number> <<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 6,0
+Value already exists
+Found at 4,1
+Value already exists
+Inserted at position 0,3
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 6,0
+Value already exists
+Found at 4,1
+Value already exists
+Found at 2,3
+Value already exists
+Found at 6,3
+Value already exists
+Found at 2,3
+Value already exists
+Inserted at position 0,4
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 6,6
+Value already exists
+Inserted at position 4,3
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 6,0
+Value already exists
+Inserted at position 0,5
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 2,8
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Inserted at position 6,7
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> 
+11 -> 
+Found at 2,3
+Value already exists
+Found at 6,0
+Value already exists
+Found at 2,3
+Value already exists
+Found at 2,1
+Value already exists
+Inserted at position 10,0
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> <main,Function> 
+11 -> 
+Found at 2,1
+Value already exists
+Found at 4,0
+Value already exists
+Inserted at position 6,8
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> <main,Function> 
+11 -> 
+Found at 2,2
+Value already exists
+Inserted at position 2,9
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> <main,Function> 
+11 -> 
+Found at 4,1
+Value already exists
+Found at 6,1
+Value already exists
+Inserted at position 0,6
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> <main,Function> 
+11 -> 
+Inserted at position 0,7
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> <char,Keyword> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> <main,Function> 
+11 -> 
+Found at 2,2
+Value already exists
+Inserted at position 4,4
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> <char,Keyword> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> <b,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> <main,Function> 
+11 -> 
+Found at 4,1
+Value already exists
+Found at 2,7
+Value already exists
+Inserted at position 0,8
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> <char,Keyword> <<<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> <b,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> 
+9 -> 
+10 -> <main,Function> 
+11 -> 
+Found at 4,4
+Value already exists
+Found at 4,1
+Value already exists
+Found at 4,4
+Value already exists
+Inserted at position 8,1
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> <char,Keyword> <<<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> <b,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> <>>,Operator> 
+9 -> 
+10 -> <main,Function> 
+11 -> 
+Inserted at position 10,1
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> <char,Keyword> <<<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> <b,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> <>>,Operator> 
+9 -> 
+10 -> <main,Function> <5,Number> 
+11 -> 
+Found at 4,4
+Value already exists
+Found at 4,4
+Value already exists
+Found at 2,7
+Value already exists
+Inserted at position 10,2
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> <char,Keyword> <<<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> <b,Identifier> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> <>>,Operator> 
+9 -> 
+10 -> <main,Function> <5,Number> <scanf,Function> 
+11 -> 
+Found at 0,3
+Value already exists
+Found at 2,2
+Value already exists
+Inserted at position 4,5
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> <char,Keyword> <<<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> <b,Identifier> <&,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> <>>,Operator> 
+9 -> 
+10 -> <main,Function> <5,Number> <scanf,Function> 
+11 -> 
+Found at 4,0
+Value already exists
+Found at 6,6
+Value already exists
+Found at 4,0
+Value already exists
+Inserted at position 4,6
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> <char,Keyword> <<<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> <b,Identifier> <&,Operator> <>,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> <>>,Operator> 
+9 -> 
+10 -> <main,Function> <5,Number> <scanf,Function> 
+11 -> 
+Found at 2,2
+Value already exists
+Found at 2,4
+Value already exists
+Found at 2,7
+Value already exists
+Found at 4,0
+Value already exists
+Found at 2,7
+Value already exists
+Found at 0,4
+Value already exists
+Found at 2,0
+Value already exists
+Found at 4,0
+Value already exists
+Inserted at position 2,10
+0 -> <auto,Identifier> <0,Number> <<,Operator> <*,Operator> <else,Keyword> <els,Identifier> <unsigned,Keyword> <char,Keyword> <<<,Operator> 
+1 -> 
+2 -> <prime,Function> <int,Keyword> <=,Operator> <+,Operator> <1,Number> <%,Operator> <break,Keyword> <printf,Function> <print,Function> <m,Identifier> <return,Keyword> 
+3 -> 
+4 -> <n,Identifier> <2,Number> <==,Operator> <+=,Operator> <b,Identifier> <&,Operator> <>,Operator> 
+5 -> 
+6 -> <i,Identifier> <3,Number> <c,Identifier> <count,Identifier> <for,Keyword> <-,Operator> <if,Keyword> <!,Operator> <float,Keyword> 
+7 -> 
+8 -> <void,Identifier> <>>,Operator> 
+9 -> 
+10 -> <main,Function> <5,Number> <scanf,Function> 
+11 -> 
+Found at 0,1
+Value already exists
